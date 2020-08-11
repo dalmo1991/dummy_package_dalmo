@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Select branch
-      uses: actions/checkout@release
+      uses: actions/checkout@master
     - name: Set up Python 3.7
       uses: actions/setup-python@v1
       with:
@@ -20,6 +20,6 @@ jobs:
     - name: Build the package
       run: python setup.py sdist
     - name: Publish on PyPI
-      uses: pypa/gh-action-pypi-publish@release
+      uses: pypa/gh-action-pypi-publish@master
       with:
         password: ${{ secrets.PYPI_ACCESS_TOKEN }}
