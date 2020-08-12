@@ -13,7 +13,8 @@ jobs:
     steps:
     - name: Select branch
       uses: actions/checkout@master
-      ref: 'release'  # The default behavior is that it checkouts to the trigger so we don't need this
+      with:
+        ref: 'release'  # The default behavior is that it checkouts to the trigger so we don't need this
     - name: Set up Python 3.7
       uses: actions/setup-python@v1
       with:
