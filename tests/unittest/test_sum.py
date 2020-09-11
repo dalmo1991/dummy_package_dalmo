@@ -10,6 +10,6 @@ from functions import sum
 class TestSum(unittest.TestCase):
 
     def test_result(self):
-        self.assertEqual(sum(2, 2), 4)
+        self.assertEqual(sum(2, 2), 5)
 
 unittest.main()
