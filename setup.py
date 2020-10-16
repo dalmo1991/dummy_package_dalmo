@@ -1,4 +1,5 @@
 import setuptools
+import os
 
 setuptools.setup(
     name='dummy_package_dalmo',
@@ -6,6 +7,8 @@ setuptools.setup(
     author='Marco Dal Molin',
     author_email='marco.dalmolin.1991@gmail.com',
     description='Test package to test CI with PyPI',
+    long_description=open(os.path.join(os.path.dirname(__file__),
+                                       "README.md")).read(),
     license='Apache Software License',
     classifiers=[
         'Development Status :: 3 - Alpha'  # https://martin-thoma.com/software-development-stages/

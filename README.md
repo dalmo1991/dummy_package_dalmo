@@ -1,16 +1,14 @@
-# README
+[![Actions Status](https://github.com/dalmo1991/superflexPy/workflows/unittest%20on%20push/badge.svg)](https://github.com/dalmo1991/superflexPy/actions)
+[![DOI](https://zenodo.org/badge/208847505.svg)](https://zenodo.org/badge/latestdoi/208847505)
 
-## Purpose
+# SuperflexPy: The flexible language of hydrological modelling
 
-This repo contains dummy code to test integrations between Github and
-other stuff.
+![SuperflexPy logo](https://superflexpy.readthedocs.io/en/latest/_images/logo_transparent_2.png)
 
-## CI with PyPI: organization
+SuperflexPy is an open-source framework written in Python for constructing
+flexible, conceptual, distributed hydrological models.
 
-master -> development repository
-
-release -> CI with PyPI. Only action to do is merge from master
-
-## Colab test
-
-Notebook in examples folder are linked to Colab by Google
+Refer to the [documentation](https://superflexpy.readthedocs.io/) to learn to
+use the SuperflexPy, [install](https://pypi.org/project/superflexpy/) the
+package from here. [Examples](examples/) showing the basic usage of SuperflexPy
+are available.
