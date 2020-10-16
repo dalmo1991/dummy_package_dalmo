@@ -3,7 +3,7 @@ import os
 
 setuptools.setup(
     name='dummy_package_dalmo',
-    version='0.0.5',
+    version='0.0.6',
     author='Marco Dal Molin',
     author_email='marco.dalmolin.1991@gmail.com',
     description='Test package to test CI with PyPI',
