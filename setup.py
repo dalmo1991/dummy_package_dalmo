@@ -9,6 +9,7 @@ setuptools.setup(
     description='Test package to test CI with PyPI',
     long_description=open(os.path.join(os.path.dirname(__file__),
                                        "README.md")).read(),
+    long_description_content_type='text/markdown',
     license='Apache Software License',
     classifiers=[
         'Development Status :: 3 - Alpha'  # https://martin-thoma.com/software-development-stages/
